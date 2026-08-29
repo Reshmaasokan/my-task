@@ -1,28 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Course Modules</title>
-    </head>
-    <body>
-        <h1>Course Modules</h1>
-        <ol type="1">
-            <li>Frontend</li>
-            <ol type="1.0" start="1.1">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ol>
-            <li>Backend</li>
-            <ol type="2.0" start="2.1">
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>REST API</li>
-            </ol>
-            <li>Database</li>
-            <ol type="3.0" start="3.1">
-                <li>MySQL</li>
-                <li>MongoDB</li>
-            </ol>
+  <head>
+    <title>Course Modules</title>
+
+    <style>
+      .module-list {
+        counter-reset: module;
+      }
+
+      .module-list > li {
+        counter-increment: module;
+        counter-reset: topic;
+      }
+
+      .module-list > li > ol {
+        list-style: none;
+        padding-left: 30px;
+      }
+
+      .module-list > li > ol > li {
+        counter-increment: topic;
+      }
+
+      .module-list > li > ol > li::before {
+        content: counter(module) "." counter(topic) " ";
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Course Modules</h1>
+
+    <ol class="module-list">
+      <li>
+        Frontend
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
         </ol>
-    </body>
+      </li>
+
+      <li>
+        Backend
+        <ol>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>REST API</li>
+        </ol>
+      </li>
+
+      <li>
+        Database
+        <ol>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+        </ol>
+      </li>
+    </ol>
+  </body>
 </html>

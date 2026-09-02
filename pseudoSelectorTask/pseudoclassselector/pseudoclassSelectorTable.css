@@ -1,0 +1,5 @@
+table tfoot tr > td{
+    background-color: blue;
+    font-weight: bold;
+     text-align: center
+}

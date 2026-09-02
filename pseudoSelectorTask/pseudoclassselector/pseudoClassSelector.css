@@ -1,0 +1,15 @@
+.button1 button:hover {
+  background-color: blue;
+}
+
+.button2 input:active {
+  background-color: green;
+}
+
+.button3 input:focus {
+  background-color: yellow;
+}
+
+.checkbox input:checked {
+  accent-color: red;
+}

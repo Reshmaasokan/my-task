@@ -1,0 +1,13 @@
+.list ul{
+    list-style-type: none;
+    counter-reset:section;
+}
+
+.list ul li::before{
+    counter-increment:section;
+    content:counter(section) ". "
+}
+
+
+
+

@@ -6,8 +6,15 @@
 .list ul li::before{
     counter-increment:section;
     content:counter(section) ". "
+    
 }
 
+.list ul li ul{
+  counter-reset:subsection;
+}
 
-
+.list ul li ul li::before{
+  counter-increment:subsection;
+  content:counter(section) "." counter(subsection) " ";
+}
 

@@ -1,0 +1,24 @@
+.table1{
+    padding: 50px;
+    width:100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    margin:200px 0px 200px 0px
+}
+
+
+thead{
+    background-color: rgb(212, 172, 97);
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 15px;
+  text-align: center;
+}
+
+caption {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}

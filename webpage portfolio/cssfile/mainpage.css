@@ -1,19 +1,22 @@
-*{
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+body {
     background-image: url('../media/pexels-anntarazevich-6712383.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Times New Roman', Times, serif;
-    margin:10px;
-}
-div{
-    border-style: solid;
-    background-color: rgb(227, 198, 144);
-    
-}
-.heading li{
-    display: inline;
-    
 }
 
+div {
+    border: 2px solid black;
+    background-color: rgb(227, 198, 144);
+}
+
+.heading li {
+    display: inline;
+    background-color: transparent;
+}

@@ -1,12 +1,25 @@
 .outbox{
-  margin:0px 100px 0px 100px
+    background-image: url('../media/pexels-anntarazevich-6712383.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    border:solid;
+    margin-top:20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
 }
+
 .table1{
-    padding: 50px;
-    width:100%;
+    /*padding: 0px 50px 0px 50px;*/
     border-collapse: collapse;
     font-size: 18px;
-    margin:200px 0px 200px 0px
+    margin:200px 200px 200px 200px;
+    box-shadow: gray;
+    
 }
 
 

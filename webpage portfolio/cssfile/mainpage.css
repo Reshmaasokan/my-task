@@ -16,12 +16,3 @@ div{
     display: inline;
 }
 
-.education{
-    background-image: url('../media/pexels-anntarazevich-6712383.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Times New Roman', Times, serif;
-
-}

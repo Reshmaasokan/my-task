@@ -1,22 +1,190 @@
+/* Basic reset */
 * {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Smooth scrolling for same-page sections */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body */
 body {
-    background-image: url('../media/pexels-anntarazevich-6712383.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7fb;
 }
 
-div {
-    border: 2px solid black;
-    background-color: rgb(227, 198, 144);
+/* Navigation bar */
+header {
+    background-color: #172b4d;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.heading li {
-    display: inline;
-    background-color: transparent;
+.navbar {
+    max-width: 1100px;
+    margin: auto;
+    padding: 18px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ffd166;
+}
+
+/* Home section */
+.hero {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+
+/* General sections */
+.section {
+    max-width: 900px;
+    min-height: 500px;
+    margin: auto;
+    padding: 100px 25px;
+    text-align: center;
+}
+
+.section h2,
+.education-page h2 {
+    color: #172b4d;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+}
+
+/* Buttons */
+.button,
+button {
+    display: inline-block;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    background-color: #172b4d;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover,
+button:hover {
+    background-color: #0b172a;
+}
+
+/* Contact section */
+.contact {
+    background-color: white;
+}
+
+form {
+    max-width: 500px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+/* Education page */
+.education-page {
+    max-width: 900px;
+    min-height: 80vh;
+    margin: auto;
+    padding: 80px 25px;
+    text-align: center;
+}
+
+.education-card {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    max-width: 600px;
+    border-left: 5px solid #4facfe;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-card h3 {
+    color: #172b4d;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #172b4d;
+    color: white;
+}
+
+/* Mobile design */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
 }

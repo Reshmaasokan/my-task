@@ -109,7 +109,7 @@ body {
 .section h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  color: #172b4d;
+  /*color: #172b4d;*/
 }
 
 .section p {
@@ -168,7 +168,7 @@ th, td {
   background-color: #f9f9f9;
 }*/
 
-/* Footer */
+
 footer {
   padding: 20px;
   text-align: center;

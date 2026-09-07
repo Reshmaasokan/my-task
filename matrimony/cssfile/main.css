@@ -2,13 +2,8 @@
   margin:0px;
   padding:0px;
   font-family: 'Times New Roman', Times, serif;
-  
 }
 
-.nav-bar> a:hover{
-  color: yellow;
-
-}
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -44,7 +39,14 @@
   
 }
 
+.nav-bar a:hover{
+  color:#ffcc00;
+}
+
 .nav-links a:hover {
+    color: white;
+  text-decoration: none;
+  font-weight: bold;
   color: #ffcc00;
 }
 
@@ -144,3 +146,49 @@ fieldset{
   background-color: white;
   gap:10px;
 }
+
+.register-form {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.register-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background: #45a049;
+}
+

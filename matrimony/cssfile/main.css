@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: right;
+    background-color: aqua;
+    color: black;
+    height: 30px;
+    width: 100%;
+    gap:20px;
+    position: relative;
+    position:fixed;
+}
+
+.Profile{
+    display:flex;
+    justify-content: flex-start;
+    font-size: large;
+}

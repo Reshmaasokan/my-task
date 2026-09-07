@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Matrimony site</title>
         <link rel="stylesheet" href="./cssfile/main.css">
     </head>
     <body>
-        <div class="nav-bar">
-            <div class="Profile">Profile</div>
-            <div class="#home">home</div>
-            <div class="#page">Main</div>
-            <div class="#contact">contact</div>
-        </div>
+    <nav class="nav-bar">
+        <div class="Profile">Profile</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#main">Main</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
 
         <section id="home" class="all">
+            <div class="home-content">
             <h1 class="heading1">Welcome to ABC Matrimony</h1>
             <p class="para1"> click the button to explore </p>
-            <a href="#page"><button class="btn"></button></a>
+            <a href="#page"><button class="btn">About us</button></a>
+            </div>
         </section>
+
+
+        <section id="about" class="all">
+            <h1 class="heading1">Learn about us</h1>
+            <p class="para1"> A short welcoming line like: “ABC Matrimony is dedicated to helping individuals find meaningful connections and lifelong companionship.”</p>
+            <a href="#main"><button class="btn">Explore</button></a>
+        </section>
+
+        <section id="main" class="all">
+            <div class="profile1">
+                <img src="./media/avatar.jpg">
+                <ul class="profile1det">
+                    <li>Name:ABCD</li>
+                    <li>Age:28</li>
+                    <li>Profession:Doctor</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+
     </body>
 </html>

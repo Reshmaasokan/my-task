@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+   
+}
+
+.container aside{
+    height: 500px;
+    text-align: center;
+}
+
+.aside1{
+    background-color:beige;
+}
+
+.aside2{
+    background-color: rgb(132, 65, 65);
+}
+
+footer{
+    background-color: rgb(109, 60, 159);
+    height:50px;
+}

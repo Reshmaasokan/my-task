@@ -1,0 +1,52 @@
+.red1{
+    border: 2px solid red;
+    background-color: red;
+    color: red;
+    width: 25%;
+    height: 90px;
+    position: relative;
+    top:250px;
+    left:450px;
+    text-align: center;
+}
+
+.red2 {
+    border: 2px solid red;
+    background-color: red;
+    color: red;
+    width: 50%;
+    height: 100px;
+    position: relative;
+    top: 250px;
+    left: 300px;
+    text-align: center;
+}
+
+.tyre1{
+    width: 50px;
+    background-color:black;
+    color: black;
+    width: 15%;
+    height: 75px;
+    position: relative;
+    top: 250px;
+    left: 300px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.tyre2{
+    width:50px;
+    background-color:black;
+    color:white;
+    width: 15%;
+    height: 75px;
+    position: relative;
+    top: 250px;
+    left: 544px;
+    border-radius: 100%;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+}

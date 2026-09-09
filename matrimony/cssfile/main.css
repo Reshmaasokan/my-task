@@ -97,38 +97,39 @@
 #main{
     display:flex;
     flex-direction: row;
-    background-color: white;
-    border: 2px solid red;
     justify-content: left;
     align-items: start;
-    padding-top: 55px;
+    padding-top: 100px;
 }
 
-.col1{
+.first{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,1fr);
+  gap: 30px;
+}
+
+.profile1 {
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: row;
+  justify-content: space-around;
 
-.profile1{
-  margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 25%;
 }
 
 img {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border-radius:50px ;
+  object-fit: cover;
 }
 
 .profile1det {
   margin-left: 30px;
     display: flex;
-    flex-direction: column; /* stack vertically */
-    gap: 10px;              /* spacing between items */
-    width: 400px;
+    flex-direction: column; 
+    gap: 10px;              
+    width: 250px;
     padding: 10px;
 }
 

@@ -13,41 +13,9 @@
     height: 100vh;
 }
 
-/* Hide the radio buttons */
-input[type="radio"] {
-display: none;
-}
-
-
-/* Start and Stop button design */
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    background: red;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: Arial, sans-serif;
-}
-
-/* Change the selected button color */
-input[type="radio"]:checked + .btn {
-    background: #0056b3;
-}
-
 .bus {
     position: relative;
-}
-
-/* When Start is selected */
-#start:checked ~ .background .bus {
     animation: school-bus 5s linear infinite;
-}
-
-/* When Stop is selected */
-#stop:checked ~ .background .bus {
-    animation: none;
 }
 
 img {

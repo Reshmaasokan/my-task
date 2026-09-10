@@ -1,13 +1,16 @@
-*{}
+*{
+    margin:0px;
+    padding: 0px;
+}
 .red1{
     border: 2px solid red;
     background-color: red;
     color: red;
-    width: 25%;
-    height: 90px;
+    width: 1200px;
+    height: 190px;
     position: relative;
     top:250px;
-    left:450px;
+    left:650px;
 }
 
 .window{
@@ -17,20 +20,20 @@
 .window1{
     position:absolute;
     top:15px;
-    left:20px;
+    left:50px;
     background-color: aliceblue;
-    width:150px;
-    height: 70px;
+    width:300px;
+    height: 300px;
     border-radius: 20px;
 }
 
 .window2{
     position:absolute;
     top:15px;
-    left:200px;
+    left:600px;
     background-color: aliceblue;
-    width:150px;
-    height: 70px;
+    width:300px;
+    height: 300px;
     border-radius: 20px;
 }
 
@@ -38,39 +41,39 @@
     border: 2px solid red;
     background-color: red;
     color: red;
-    width: 50%;
-    height: 100px;
+    width: 2000px;
+    height: 290px;
     position: relative;
     top: 250px;
     left: 300px;
     text-align: center;
-      border-radius: 20px;
+    border-radius: 20px;
 }
 
 .tyre1{
     background-color:black;
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     position: relative;
     top: 250px;
-    margin-left: 400px;
+    margin-left: 600px;
     border-radius: 100%;
     text-align: center;
-     animation: tyres 2s linear infinite;
+   /*animation: tyres 2s linear infinite;*/
 }
 
 .tyre2{
     background-color:black;
     color:white;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     position: relative;
     top: 250px;
-    margin-left:350px;
+    margin-left:600px;
     border-radius: 100%;
     text-align: center;
-    animation: tyres 2s linear infinite;
+    /*animation: tyres 2s linear infinite;*/
 }
 .bottom{
     display: flex;

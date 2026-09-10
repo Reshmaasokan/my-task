@@ -84,6 +84,38 @@ body {
   margin-bottom: 30px;
 }
 
+.home-content .uptodown{
+  position: absolute;
+  top: 0;               /* Start at the top */
+  left: 50%;            /* Center horizontally */
+  transform: translateX(-50%);
+  animation: moveDown 5s ease forwards; 
+}
+
+.home-content a button{
+  margin-top: 500px;
+  animation: moveright 5s ease forwards;
+}
+
+@keyframes moveDown{
+ from {
+    top: 0;             /* Starting position */
+  }
+  to {
+    top: 50%;           /* End at vertical center */
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes moveright {
+  from {
+    transform: translateX(-100%); /* start far left */
+  }
+  to {
+    transform: translateX(0);     /* end at center */
+  }
+}
+
 .btn {
   background-color: #003366;
   color: white;

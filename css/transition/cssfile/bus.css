@@ -1,0 +1,36 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    background-image: url('../media/yf38_m8zv_220226.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bus {
+    position: relative;
+    animation: school-bus 5s linear infinite;
+}
+
+img {
+    margin-top: 1300px;
+    width: 50%;
+}
+
+@keyframes school-bus {
+
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(2000px);
+    }
+}
+
